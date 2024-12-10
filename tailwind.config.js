@@ -7,6 +7,17 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+	container: {
+		center: true,
+		padding: '2rem',  // Optional: Adds padding inside the container
+		screens: {
+		  sm: '100%',     // 100% width for small screens
+		  md: '768px',    // Example width for medium screens
+		  lg: '1024px',   // Example width for large screens
+		  xl: '1280px',   // Example width for extra-large screens
+		  '2xl': '1536px', // Example for 2xl screens
+		}
+	  },
   	extend: {
   		colors: {
   			background: 'hsl(var(--background))',

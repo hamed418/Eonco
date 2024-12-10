@@ -1,21 +1,24 @@
 import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 import Hero from "@/components/Hero"
-import Slider from "@/components/Slider"
+import Slider2 from "@/components/Slider2"
 import Video from "@/components/Video"
-import React from "react"
 //import { clsx } from 'clsx';
-import Griditems from './../components/Griditems';
+import FAQ from "@/components/FAQ"
+import MediaComp from "@/components/MediaComp"
+import Griditems from './../components/Griditems'
 
 const Home = () => {
-  return(
+  return (
     <div>
-      <Header/>
-      <Hero/>
-      <Video/>
-      <Footer/>
-      <Slider/>
-      <Griditems/>
+      <Header />
+      <Hero />
+      <Video />
+      <Slider2 />
+      <Griditems />
+      <MediaComp />
+      <FAQ />
+      <Footer />
     </div>
   )
 }
