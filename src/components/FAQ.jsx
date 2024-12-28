@@ -5,7 +5,7 @@ const FAQ = () => {
 
     return (
         <section id="faq" className="container w-full sm:flex sm:mt-10 sm:space-x-6">
-            <div className="text-center my-6 md:my-9 items-center">
+            <div className="text-center my-6 md:my-9 items-center lg:w-2/4">
                 <h1 className="text-[76px] max-sm:text-[30px] text-[#f4f5f2] leading-[72px]  font-bold ">Have Questions? </h1>
                 <p className="my-5 text-2xl font-bold text-[#f0eaea]">Do you have more questions?</p>
                 <div className="bg-[#4c4d4a43] w-fit text-[#FFF0E9] text-[22px] font-[500] px-6 py-3 rounded-[10px] hover:bg-[#abc773] hover:text-black max-sm:px-4 max-sm:py-2 max-sm:text-[1.125rem] flex items-center gap-2 mx-auto cursor-pointer">
@@ -14,7 +14,7 @@ const FAQ = () => {
                 </div>
             </div>
 
-            <div className="w-[2/3]" >
+            <div className="w-full" >
                 <FaqCard
                     Question="What are your services?"
                     Answer="Our services are endless! Starting from video editing, reels, podcasts to colour correction, motion graphics, text animation, transition, background music to everything you can imagine."
